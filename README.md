@@ -1,7 +1,7 @@
 # Active Learning for Quality Engineering
 This repo contains the code for replicating the results from the paper on Active Learning published in Quality Engineering.
 
-Images used for the examples in the paper can be requested [here](https://www.mvtec.com/company/research/datasets/mvtec-ad).
+Images from the MVTec datasets used in the paper can be requested [here](https://www.mvtec.com/company/research/datasets/mvtec-ad).
 
 This repo contains:
 1. `image_preprocessing`: torch implementation of a ResNet-18 feature extractor.
