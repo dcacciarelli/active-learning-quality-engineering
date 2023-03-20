@@ -1,7 +1,7 @@
 # Active Learning for Quality Engineering
 This repo contains the code for replicating the results from the paper on Active Learning published in Quality Engineering.
 
-Images from the MVTec datasets used in the paper can be requested [here](https://www.mvtec.com/company/research/datasets/mvtec-ad).
+The images used in this paper are from the MVTec datasets and they can be requested [here](https://www.mvtec.com/company/research/datasets/mvtec-ad).
 
 This repo contains:
 1. `requirements.txt`: file that contains a list of all the packages installed in the environment used, along with their version numbers.
