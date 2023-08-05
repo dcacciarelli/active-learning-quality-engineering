@@ -59,6 +59,7 @@ def random_sampling(data, initial_size=50, reps=5, iters=10, num_instances_to_la
             scores.append(balanced_accuracy_score(test_y, y_pred))
 
         scores_rep.append(scores)
+        print("Random sampling, iteration: ", rep)
 
     return scores_rep
 
@@ -97,6 +98,7 @@ def full_model(data, initial_size=50, reps=5):
         model.fit(train_X, train_y)
         y_pred = model.predict(test_X)
         scores_rep.append(balanced_accuracy_score(test_y, y_pred))
+        print("Full model, iteration: ", rep)
 
     return scores_rep
 
@@ -161,5 +163,6 @@ def margin_sampling(data, initial_size=50, reps=5, iters=10, num_instances_to_la
             scores.append(balanced_accuracy_score(test_y, y_pred))
 
         scores_rep.append(scores)
+        print("Uncertainty sampling, iteration: ", rep)
 
     return scores_rep
