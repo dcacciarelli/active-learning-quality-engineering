@@ -1,5 +1,5 @@
 # Active Learning for Quality Engineering
-This repo contains the code for replicating the results from the paper on Active Learning published in Quality Engineering.
+This repo contains the code for replicating the results from the paper **"Active Learning for Industrial Applications"** published in Quality Engineering.
 
 The images used in this paper are from the MVTec datasets and they can be requested [here](https://www.mvtec.com/company/research/datasets/mvtec-ad):
 <img src='parts.png' width='400'/>
