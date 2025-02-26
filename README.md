@@ -2,7 +2,7 @@
 This repo contains the code for replicating the results from the paper on Active Learning published in Quality Engineering.
 
 The images used in this paper are from the MVTec datasets and they can be requested [here](https://www.mvtec.com/company/research/datasets/mvtec-ad):
-<img src='parts.png' width='500'/>
+<img src='parts.png' width='400'/>
 
 # **Active Learning for Industrial Applications**  
 
@@ -43,7 +43,7 @@ The black points indicate samples with the most representative data points of ea
 ### **Comparison of Active Learning Strategies**
 From the paper, we analyze different active learning strategies in an industrial setting:
 
-<img src='results.png' width='600'/>
+<img src='results.png' width='800'/>
 
 ## 📜 **Citation**
 If you use this code, please cite:
