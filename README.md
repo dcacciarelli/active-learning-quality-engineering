@@ -8,14 +8,7 @@ The images used in this paper are from the MVTec datasets and they can be reques
 This repository contains the code for replicating results from the paper *Active Learning for Industrial Applications*, published in *Quality Engineering*. The project explores **active learning strategies** to improve data efficiency in real-world industrial applications, reducing labeling costs while maintaining high model performance.
 
 ## 📌 **Overview**
-Supervised learning models often require **large labeled datasets**, which can be costly and time-consuming to obtain. **Active learning** addresses this by selecting the most informative samples for annotation, improving model efficiency with fewer labeled examples. This project implements and compares:
-
-- **Random Sampling** – Baseline method selecting samples randomly.
-- **Margin-Based Active Learning** – Selects uncertain samples near the decision boundary.
-- **Entropy-Based Sampling** – Prioritizes samples with high uncertainty.
-- **Hybrid Approaches** – Combines multiple active learning strategies to improve performance.
-
-We apply these methods to **industrial quality control** and **fault detection** tasks, demonstrating how active learning improves labeling efficiency in manufacturing settings.
+Supervised learning models often require **large labeled datasets**, which can be costly and time-consuming to obtain. **Active learning** addresses this by selecting the most informative samples for annotation, improving model efficiency with fewer labeled examples. Here we show how to apply active learning methods to **industrial quality control** and **fault detection** tasks, demonstrating how active learning improves labeling efficiency in manufacturing settings.
 
 ## 🛠 **Setup Instructions**
 1. Clone the repository:
