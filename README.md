@@ -1,7 +1,8 @@
 # Active Learning for Quality Engineering
 This repo contains the code for replicating the results from the paper on Active Learning published in Quality Engineering.
 
-The images used in this paper are from the MVTec datasets and they can be requested [here](https://www.mvtec.com/company/research/datasets/mvtec-ad).
+The images used in this paper are from the MVTec datasets and they can be requested [here](https://www.mvtec.com/company/research/datasets/mvtec-ad):
+<img src='parts.png' width='500'/>
 
 # **Active Learning for Industrial Applications**  
 
@@ -33,21 +34,16 @@ Supervised learning models often require **large labeled datasets**, which can b
 -  `active_learning.ipynb`: notebook showing how the implementation of the active learning strategy.
 
 ## 📊 **Visualizing Active Learning**
-### **Margin-Based Sampling**
-Below is an illustration of margin-based sampling in action:
+Below is an illustration of clustering-based sampling in action:
 
-<img src='margin.png' width='500'/>
+<img src='clusters.png' width='500'/>
 
-The red points indicate samples with the lowest confidence, which are selected for annotation in active learning.
+The black points indicate samples with the most representative data points of each clusters (subpopulation), which are selected for annotation in active learning.
 
 ### **Comparison of Active Learning Strategies**
 From the paper, we analyze different active learning strategies in an industrial setting:
 
-<img src='images/active_learning_comparison.png' width='600'/>
-
-- **Baseline Model Performance** – Supervised learning without active selection.
-- **Active Learning Performance** – Demonstrates improvement with fewer labeled samples.
-- **Efficiency Gains** – Reduction in annotation costs while maintaining accuracy.
+<img src='results.png' width='600'/>
 
 ## 📜 **Citation**
 If you use this code, please cite:
